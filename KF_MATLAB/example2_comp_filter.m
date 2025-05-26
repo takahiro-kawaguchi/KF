@@ -60,7 +60,4 @@ figure, plot([Xhat(:, 1), X(:, 1)])
 
 f = figure, plot([Xhat(:, 1), Y(:, 2)-Ehat, X(:, 1)])
 
-p = tools.plot_pptx()
-p.add_plot(f, 1, 1, 1, 2)
-
 figure, plot([Xhat(:, 1)-X(:,1), Y(:, 2)-Ehat-X(:, 1)])
